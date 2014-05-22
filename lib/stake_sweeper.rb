@@ -44,18 +44,14 @@ class Teams < Array
 end
 
 class StakeSweeper < Sinatra::Base
-  @@locals = {
-    :bootstrap_theme   => '../brazil.css',
-    :additional_css   => '../odi.css'
-  }
 
   get '/' do
-    haml :index, :locals => @@locals.merge(
-        {
-          :title => 'ODI World Cup Sweepstake',
-          :teams => Teams.new('config/teams.yaml')
+    haml :index, :locals => {
+          :title => YAML.load(File.open('config/config.yaml'))['title'],
+          :teams => Teams.new('config/teams.yaml'),
+          :bootstrap_theme   => '../brazil.css',
+          :additional_css   => '../odi.css'
         }
-    )
   end
 
   # start the server if ruby file executed directly
