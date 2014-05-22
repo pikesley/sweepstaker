@@ -10,8 +10,7 @@ class Team
   end
 
   def to_s
-    s = '<div class="col-md-6 text-center"'
-    s << '>'
+    s = ''
     s << '<button class="btn btn-block btn-'
 
     case @status
@@ -29,7 +28,6 @@ class Team
     s << @backer
     s << '</em>'
     s << '</button>'
-    s << '</div>'
 
     s
   end
