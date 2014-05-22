@@ -11,3 +11,7 @@ button.btn {
   font-family: 'Ubuntu';
   font-size: 1em;
 }
+
+em {
+  color: #f5da15;
+}

@@ -23,7 +23,7 @@ class Team
     s << '"'
     s << '>'
     s << @name
-    s << ' - '
+    s << '<br />'
     s << '<em>'
     s << @backer
     s << '</em>'
