@@ -3,9 +3,11 @@
 
 h1 {
   margin-bottom: 25px;
+  font-size: 4em;
   font-family: 'Permanent Marker';
 }
 
-p {
+button.btn {
   font-family: 'Ubuntu';
+  font-size: 2em;
 }
