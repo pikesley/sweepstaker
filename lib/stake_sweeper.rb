@@ -10,7 +10,7 @@ class Team
   end
 
   def to_s
-    s = '<div class="col-md-6"'
+    s = '<div class="col-md-6 text-center"'
     s << '>'
     s << '<button class="btn btn-block btn-'
 
