@@ -7,6 +7,9 @@
     -if defined? bootstrap_theme
       %link{:rel => 'stylesheet', :href => bootstrap_theme, :type => "text/css"}
 
+    -if defined? additional_css
+      %link{:rel => 'stylesheet', :href => additional_css, :type => "text/css"}
+
   %body
     .body
       .container

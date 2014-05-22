@@ -1,0 +1,11 @@
+@import url('http://fonts.googleapis.com/css?family=Ubuntu');
+@import url('http://fonts.googleapis.com/css?family=Permanent+Marker');
+
+h1 {
+  margin-bottom: 25px;
+  font-family: 'Permanent Marker';
+}
+
+p {
+  font-family: 'Ubuntu';
+}

@@ -45,7 +45,8 @@ end
 
 class StakeSweeper < Sinatra::Base
   @@locals = {
-      :bootstrap_theme   => '../brazil.css'
+    :bootstrap_theme   => '../brazil.css',
+    :additional_css   => '../odi.css'
   }
 
   get '/' do
