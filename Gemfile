@@ -7,6 +7,7 @@ gem 'sinatra'
 gem 'rake'
 gem 'travis'
 gem 'haml'
+gem 'thin'
 
 group :test do
   gem 'capybara-webkit'
