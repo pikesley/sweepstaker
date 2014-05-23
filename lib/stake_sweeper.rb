@@ -45,10 +45,12 @@ end
 
 class StakeSweeper < Sinatra::Base
 
+  @@config = YAML.load(File.open('config/config.yaml'))
+
   get '/' do
     haml :index, :locals => {
-          :title => YAML.load(File.open('config/config.yaml'))['title'],
-          :teams => Teams.new('config/teams.yaml'),
+          :title => @@config['title'],
+          :teams => Teams.new(@@config['data_source']),
           :bootstrap_theme   => '../brazil.css',
           :additional_css   => '../odi.css'
         }
