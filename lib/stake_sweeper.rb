@@ -24,7 +24,9 @@ class Team
     s << '>'
     s << @name.to_s
     s << '<br />'
-    s << '<em>'
+    s << '<em'
+    s << ' class="nobody"' if @backer == 'Nobody'
+    s << '>'
     s << @backer
     s << '</em>'
     s << '</button>'

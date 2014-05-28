@@ -15,3 +15,7 @@ button.btn {
 em {
   color: #f5da15;
 }
+
+em.nobody {
+  color: #797;
+}
