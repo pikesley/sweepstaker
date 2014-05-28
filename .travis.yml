@@ -6,5 +6,5 @@ deploy:
   api_key:
     secure: BBp0dRnLsIA3w6P/4L6qlUiXshQx+3TzJjIKzcR0sZgEgwxQHxtKfApWC23pNy7zlnMlNmJfS1Phljp3S8LCHUmz0PD7SLuuhQt6LFzJYGhAkAaRNPoL2bkwYoncuoGw33Fr2fqFJpmWm7wB4YoV+DBVGTx5G0JtODMHRbbSqxI=
   app: odi-world-cup
-  on:
-    repo: pikesley/sweepstaker
+  on: master
+#    repo: pikesley/sweepstaker
