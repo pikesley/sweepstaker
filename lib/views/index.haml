@@ -1,5 +1,11 @@
 %h1.text-center ODI World Cup Sweepstake
 
+-if teams.nobodies > 0
+  %h2.text-center
+    =teams.nobodies
+    teams remaining
+
+
 .row
 -teams.each do |team|
   .col-sm-3

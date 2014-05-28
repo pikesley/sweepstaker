@@ -3,6 +3,8 @@ require 'haml'
 require 'yaml'
 
 class Team
+  attr_reader :backer
+
   def initialize name, backer, status
     @name = name
     @backer = backer
@@ -36,11 +38,16 @@ class Team
 end
 
 class Teams < Array
+  attr_reader :nobodies
+
   def initialize conf_file
+    @nobodies = 0
+
     y = YAML.load File.open conf_file
     y.each_pair do |team, attributes|
       t = Team.new team, attributes['backer'], attributes['status']
       self << t
+      @nobodies += 1 if t.backer == 'Nobody'
     end
   end
 end
