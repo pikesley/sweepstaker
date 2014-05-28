@@ -8,6 +8,7 @@ gem 'rake'
 gem 'travis'
 gem 'haml'
 gem 'thin'
+gem 'badgerbadgerbadger'
 
 group :test do
   gem 'capybara-webkit'
