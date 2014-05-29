@@ -3,7 +3,7 @@
 h1, h2 {
   margin-bottom: 25px;
   font-size: 4em;
-  font-family: 'Ubuntu';
+  font-family: 'Helvetica Neue';
 }
 
 h2 {
@@ -11,7 +11,7 @@ h2 {
 }
 
 button.btn {
-  font-family: 'Ubuntu';
+  font-family: 'Helvetica Neue';
   font-size: 1.5em;
 }
 
