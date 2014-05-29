@@ -22,6 +22,10 @@ class Team
       s << 'danger'
     end
 
+    if @backer == 'Nobody'
+      s << ' btn-info'
+    end
+
     s << '"'
     s << '>'
     s << @name.to_s
