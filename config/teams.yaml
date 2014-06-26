@@ -51,10 +51,10 @@ Greece:
   status: In
 Honduras:
   backer: Andrea
-  status: In
+  status: Out
 Iran:
   backer: James
-  status: In
+  status: Out
 Italy:
   backer: Kass
   status: Out
@@ -87,7 +87,7 @@ Spain:
   status: Out
 Switzerland:
   backer: Briony
-  status: In
+  status: Out
 United States:
   backer: Georgia
   status: In
