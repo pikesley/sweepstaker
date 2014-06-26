@@ -3,7 +3,7 @@ require 'haml'
 require 'yaml'
 
 class Team
-  attr_reader :backer
+  attr_reader :name, :backer, :status
 
   def initialize name, backer, status
     @name = name
@@ -53,6 +53,8 @@ class Teams < Array
       self << t
       @nobodies += 1 if t.backer == 'Nobody'
     end
+
+    self.sort_by! { |x| [ x.status, x.name ] }
   end
 end
 
