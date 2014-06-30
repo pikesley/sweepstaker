@@ -21,7 +21,7 @@ Cameroon:
   status: Out
 Chile:
   backer: Ali
-  status: In
+  status: Out
 Colombia:
   backer: Carlina
   status: In
@@ -33,7 +33,7 @@ Croatia:
   status: Out
 Ecuador:
   backer: Tom
-  status: In
+  status: Out
 England:
   backer: Marisa
   status: Out
@@ -48,7 +48,7 @@ Ghana:
   status: Out
 Greece:
   backer: Samantha
-  status: In
+  status: Out
 Honduras:
   backer: Andrea
   status: Out
@@ -66,7 +66,7 @@ Japan:
   status: Out
 Mexico:
   backer: Liz
-  status: In
+  status: Out
 Netherlands:
   backer: Amanda
   status: In
@@ -87,10 +87,10 @@ Spain:
   status: Out
 Switzerland:
   backer: Briony
-  status: Out
+  status: In
 United States:
   backer: Georgia
   status: In
 Uruguay:
   backer: Jeni
-  status: In
+  status: Out
