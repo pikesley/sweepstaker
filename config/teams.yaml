@@ -9,7 +9,7 @@ Australia:
   status: Out
 Belgium:
   backer: Carlina
-  status: In
+  status: Out
 Bosnia and Herzegovina:
   backer: Carl
   status: Out
@@ -24,10 +24,10 @@ Chile:
   status: Out
 Colombia:
   backer: Carlina
-  status: In
+  status: Out
 Costa Rica:
   backer: Ulrich
-  status: In
+  status: Out
 Croatia:
   backer: Stuart H
   status: Out
@@ -39,7 +39,7 @@ England:
   status: Out
 France:
   backer: Michelle
-  status: In
+  status: Out
 Germany:
   backer: Anneza
   status: In
